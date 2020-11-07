@@ -1,0 +1,21 @@
+.cardwidth{
+    width: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4{
+    font-size: 20px;
+    background-color: gold;
+    width: 120px;
+    color:#889;
+    text-align: center;
+}
