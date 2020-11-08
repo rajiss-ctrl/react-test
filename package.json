@@ -1,6 +1,6 @@
 {
+"homepage" :"https://rajiss-ctrl.github.io/",
   "name": "coursera-react1",
-  "homepage":"http://rajiss-ctrl.github.io/react-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,9 +15,9 @@
     "reactstrap": "5.0.0"
   },
   "scripts": {
+    "predeploy":"yarn run build",
+    "deploy":"gh-pages -b master -d build",
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
